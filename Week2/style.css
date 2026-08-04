@@ -1,0 +1,11 @@
+/* Element Selector */
+body{
+    margin: 5rem;
+    background-color: darkcyan;
+
+}
+h2,h1{
+    color: aliceblue;
+    background-color: brown;
+    padding: 1rem;
+}
