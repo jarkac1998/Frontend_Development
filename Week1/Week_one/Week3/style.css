@@ -1,0 +1,37 @@
+body{
+    width: 80%;
+    margin: 15px auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black
+}
+
+li a:hover{
+    color: red;
+
+}
+/* CSS Grid Style */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: bisque;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+
+}
