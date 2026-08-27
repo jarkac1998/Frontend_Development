@@ -24,8 +24,15 @@ li a:hover{
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
 }
 
 .card{
