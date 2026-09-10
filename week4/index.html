@@ -9,9 +9,61 @@
     <h2> This line is straight HTML</h2>
     <h3>
         <script type="text/javaScript">
-            document.write("These lines are produced by <br/>")
-            document.write("the javascript program <br/>")
-            alert("Hey, JavaScript is fun")
+        // Declaring Variables 
+            var studentName = "Clinton";
+            var scores = [85,72,91];
+            var total = 0;
+            var average;
+        
+            console.log('Student: ' + studentName + ' ' + scores);
+            
+            // For loop
+           for (var i = 0; i < scores.length; i++) {
+            total += scores[i];
+
+            console.log('scores ' + (i+i) + ':' + scores[i]);
+            
+            }
+
+            average = total / scores.length;
+            console.log('Average: '+ average);
+            // Using if / else if/ else 
+        
+        var grade;
+
+        if (average >= 90){
+            grade = "A";
+            
+        } else if(average >= 80){
+            grade = "B";
+        } else if (average >= 70){
+            grade = "C";
+            
+        } else if (average >= 60){
+            grade = "D";
+            
+       } else {
+            grade = "F";
+    }
+        // Using switch statements
+        var message;
+
+        switch (grade){
+            case "A":
+                Message = "Oustanding"; break;
+            case "B":
+                Message = "Great Work"; break;
+            case "C":
+                Message = "You passed"; break;
+            case "D":
+                Message = "Barley Passed - review the materials."; break;
+            case "F":
+            default: 
+                Message = "Did not pass - please see the instructor"; 
+        }
+        console.log('Message:' + Message);
+
+
         </script>
     </h3>
     <script type="text/javascript" src="script.js"></script>
