@@ -1,1 +1,1 @@
-Add your CV as Clinton-C-Jarka-CV.pdf in this folder for the Download CV button to work.
+https://github.com/jarkac1998/Frontend_Development/blob/main/CJ/ClintonCJarkaC.pdf.pdf.pdf
